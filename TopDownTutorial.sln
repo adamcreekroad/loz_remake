@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownTutorial.CSharp", "TopDownTutorial.CSharp.csproj", "{3D11B997-28D1-CECB-1228-1E16ECF96897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownTutorial.CSharp.Editor", "TopDownTutorial.CSharp.Editor.csproj", "{54BA11A3-8692-BFFA-3C24-AF247C2F9FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D11B997-28D1-CECB-1228-1E16ECF96897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D11B997-28D1-CECB-1228-1E16ECF96897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D11B997-28D1-CECB-1228-1E16ECF96897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D11B997-28D1-CECB-1228-1E16ECF96897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BA11A3-8692-BFFA-3C24-AF247C2F9FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BA11A3-8692-BFFA-3C24-AF247C2F9FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BA11A3-8692-BFFA-3C24-AF247C2F9FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BA11A3-8692-BFFA-3C24-AF247C2F9FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
