@@ -1,0 +1,913 @@
+fileFormatVersion: 2
+guid: 99d0cb43b0481874b931803eb6917c02
+timeCreated: 1468780068
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: legendofzelda_bosses_sheet_0
+    21300002: legendofzelda_bosses_sheet_1
+    21300004: legendofzelda_bosses_sheet_2
+    21300006: legendofzelda_bosses_sheet_3
+    21300008: legendofzelda_bosses_sheet_4
+    21300010: legendofzelda_bosses_sheet_5
+    21300012: legendofzelda_bosses_sheet_6
+    21300014: legendofzelda_bosses_sheet_7
+    21300016: legendofzelda_bosses_sheet_8
+    21300018: legendofzelda_bosses_sheet_9
+    21300020: legendofzelda_bosses_sheet_10
+    21300022: legendofzelda_bosses_sheet_11
+    21300024: legendofzelda_bosses_sheet_12
+    21300026: legendofzelda_bosses_sheet_13
+    21300028: legendofzelda_bosses_sheet_14
+    21300030: legendofzelda_bosses_sheet_15
+    21300032: legendofzelda_bosses_sheet_16
+    21300034: legendofzelda_bosses_sheet_17
+    21300036: legendofzelda_bosses_sheet_18
+    21300038: legendofzelda_bosses_sheet_19
+    21300040: legendofzelda_bosses_sheet_20
+    21300042: legendofzelda_bosses_sheet_21
+    21300044: legendofzelda_bosses_sheet_22
+    21300046: legendofzelda_bosses_sheet_23
+    21300048: legendofzelda_bosses_sheet_24
+    21300050: legendofzelda_bosses_sheet_25
+    21300052: legendofzelda_bosses_sheet_26
+    21300054: legendofzelda_bosses_sheet_27
+    21300056: legendofzelda_bosses_sheet_28
+    21300058: legendofzelda_bosses_sheet_29
+    21300060: legendofzelda_bosses_sheet_30
+    21300062: legendofzelda_bosses_sheet_31
+    21300064: legendofzelda_bosses_sheet_32
+    21300066: legendofzelda_bosses_sheet_33
+    21300068: legendofzelda_bosses_sheet_34
+    21300070: legendofzelda_bosses_sheet_35
+    21300072: legendofzelda_bosses_sheet_36
+    21300074: legendofzelda_bosses_sheet_37
+    21300076: legendofzelda_bosses_sheet_38
+    21300078: legendofzelda_bosses_sheet_39
+    21300080: legendofzelda_bosses_sheet_40
+    21300082: legendofzelda_bosses_sheet_41
+    21300084: legendofzelda_bosses_sheet_42
+    21300086: legendofzelda_bosses_sheet_43
+    21300088: legendofzelda_bosses_sheet_44
+    21300090: legendofzelda_bosses_sheet_45
+    21300092: legendofzelda_bosses_sheet_46
+    21300094: legendofzelda_bosses_sheet_47
+    21300096: legendofzelda_bosses_sheet_48
+    21300098: legendofzelda_bosses_sheet_49
+    21300100: legendofzelda_bosses_sheet_50
+    21300102: legendofzelda_bosses_sheet_51
+    21300104: legendofzelda_bosses_sheet_52
+    21300106: legendofzelda_bosses_sheet_53
+    21300108: legendofzelda_bosses_sheet_54
+    21300110: legendofzelda_bosses_sheet_55
+    21300112: legendofzelda_bosses_sheet_56
+    21300114: legendofzelda_bosses_sheet_57
+    21300116: legendofzelda_bosses_sheet_58
+    21300118: legendofzelda_bosses_sheet_59
+    21300120: legendofzelda_bosses_sheet_60
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 311
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 311
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 311
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 311
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 319
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 319
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 311
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 311
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 264
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 265
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 264
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 291
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 263
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 236
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 237
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 236
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 237
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 236
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 236
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 236
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 236
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 206
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 206
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 206
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 206
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 206
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 206
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 206
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 176
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 176
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 176
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 146
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 146
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 146
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 146
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 92
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 91
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 92
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 91
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 39
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 38
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 39
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 12
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: legendofzelda_bosses_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

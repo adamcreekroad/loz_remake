@@ -3,15 +3,28 @@ using System.Collections;
 
 public class Octorok : MovingObject
 {
+    public string currentDirection;
+
     public float moveInterval;
     public float moveSpeed;
     public float moveDuration;
+
     public float attackDamage;
+    public float attackInterval;
+    public float attackTimer;
+    public float bulletSpeed;
 
     private float moveTimer;
     private float isMovingTimer;
 
     private bool isMoving;
+
+    public Transform target;
+    public GameObject bullet;
+    public Transform shootPointUp;
+    public Transform shootPointRight;
+    public Transform shootPointDown;
+    public Transform shootPointLeft;
 
     private Animator anim;
     private Rigidbody2D rb2D;
@@ -26,6 +39,7 @@ public class Octorok : MovingObject
 	// Update is called once per frame
 	void Update ()
     {
+        attackTimer += Time.deltaTime;
         if (!isMoving)
         {
             moveTimer += Time.deltaTime;
@@ -45,16 +59,24 @@ public class Octorok : MovingObject
         {
             case 0:
                 anim.SetTrigger("lookUp");
+                currentDirection = "up";
                 return new Vector2(0, moveSpeed);
             case 1:
                 anim.SetTrigger("lookRight");
+                currentDirection = "right";
                 return new Vector2(moveSpeed, 0);
             case 2:
                 anim.SetTrigger("lookDown");
+                currentDirection = "down";
                 return new Vector2(0, -moveSpeed);
-            default:
+            case 3:
                 anim.SetTrigger("lookLeft");
+                currentDirection = "left";
                 return new Vector2(-moveSpeed, 0);
+            default:
+                anim.SetTrigger("lookDown");
+                currentDirection = "down";
+                return new Vector2(0, -moveSpeed);
         }
     }
 
@@ -94,13 +116,60 @@ public class Octorok : MovingObject
         {
             col.gameObject.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
             // how much the character should be knocked back
-            var magnitude = 500;
+            var magnitude = 750;
             // calculate force vector
             var force = transform.position - col.transform.position;
             force.Normalize();
             // normalize force vector to get direction only and trim magnitude
             col.gameObject.GetComponent<Rigidbody2D>().AddForce(-force * magnitude);
             StopMovement();
+        }
+    }
+
+    public void Attack(string attackDir)
+    {
+        if (attackTimer > attackInterval)
+        {
+            if (attackDir == "up")
+            {
+                Vector2 direction = new Vector2(0, 1);
+                direction.Normalize();
+                GameObject bulletClone;
+                bulletClone = Instantiate(bullet, shootPointUp.transform.position,
+                    shootPointUp.transform.rotation) as GameObject;
+                bulletClone.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+                attackTimer = 0;
+            }
+            else if (attackDir == "right")
+            {
+                Vector2 direction = new Vector2(1, 0);
+                direction.Normalize();
+                GameObject bulletClone;
+                bulletClone = Instantiate(bullet, shootPointRight.transform.position,
+                    shootPointRight.transform.rotation) as GameObject;
+                bulletClone.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+                attackTimer = 0;
+            }
+            else if (attackDir == "down")
+            {
+                Vector2 direction = new Vector2(0, -1);
+                direction.Normalize();
+                GameObject bulletClone;
+                bulletClone = Instantiate(bullet, shootPointDown.transform.position,
+                    shootPointDown.transform.rotation) as GameObject;
+                bulletClone.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+                attackTimer = 0;
+            }
+            else if (attackDir == "left")
+            {
+                Vector2 direction = new Vector2(-1, 0);
+                direction.Normalize();
+                GameObject bulletClone;
+                bulletClone = Instantiate(bullet, shootPointLeft.transform.position,
+                    shootPointLeft.transform.rotation) as GameObject;
+                bulletClone.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+                attackTimer = 0;
+            }
         }
     }
 }

@@ -35,7 +35,7 @@ public class PlayerMovement : MovingObject
                 anim.SetBool("is_walking", false);
             }
 
-            rbody.MovePosition(rbody.position + movementVector * Time.deltaTime * 10);
+            rbody.MovePosition(rbody.position + movementVector * Time.deltaTime * 15);
         }
     }
 
@@ -54,6 +54,7 @@ public class PlayerMovement : MovingObject
             knockbackTimer += Time.deltaTime;
             yield return null;
         }
+        rbody.velocity = new Vector2(0, 0);
         canMove = true;
     }
 
